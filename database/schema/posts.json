@@ -1,0 +1,101 @@
+[
+  {
+    "name": "id",
+    "dbType": "increments",
+    "fillable": false,
+    "primary": true,
+    "inForm": false,
+    "inIndex": false
+  },
+  {
+    "name": "body",
+    "dbType": "longText",
+    "htmlType": "textarea",
+    "validations": "required",
+    "fillable": true,
+    "searchable": true
+  },
+  {
+    "name": "title",
+    "dbType": "string:unique",
+    "htmlType": "text",
+    "validations": "required",
+    "fillable": true,
+    "searchable": true
+  },
+  {
+    "name": "slug",
+    "dbType": "string:nullable",
+    "htmlType": "text",
+    "validations": "required",
+    "fillable": true,
+    "searchable": true
+  },
+  {
+    "name": "status",
+    "dbType": "string:nullable",
+    "htmlType": "text",
+    "validations": "required",
+    "fillable": true,
+    "searchable": true
+  },
+  {
+    "name": "excerpt",
+    "dbType": "text:nullable",
+    "htmlType": "text",
+    "validations": "required",
+    "fillable": true,
+    "searchable": true
+  },
+  {
+    "name": "published_at",
+    "dbType": "timestamp:nullable",
+    "htmlType": "",
+    "validations": "",
+    "searchable": false,
+    "fillable": false,
+    "primary": false,
+    "inForm": false,
+    "inIndex": false
+  },
+  {
+    "name": "author_id",
+    "dbType": "integer:nullable:unsigned:foreign,users,id",
+    "htmlType": "text",
+    "relation": "mt1,User,user_id,id",
+    "validations": "required",
+    "fillable": false,
+    "searchable": true
+  },
+  {
+    "name": "category_id",
+    "dbType": "integer:nullable:unsigned:foreign,categories,id",
+    "htmlType": "text",
+    "relation": "mt1,Category,category_id,id",
+    "validations": "required",
+    "fillable": false,
+    "searchable": true
+  },
+  {
+    "name": "created_at",
+    "dbType": "timestamp",
+    "htmlType": "",
+    "validations": "",
+    "searchable": false,
+    "fillable": false,
+    "primary": false,
+    "inForm": false,
+    "inIndex": false
+  },
+  {
+    "name": "updated_at",
+    "dbType": "timestamp",
+    "htmlType": "",
+    "validations": "",
+    "searchable": false,
+    "fillable": false,
+    "primary": false,
+    "inForm": false,
+    "inIndex": false
+  }
+]

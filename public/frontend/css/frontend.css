@@ -1,0 +1,225 @@
+.bg-white {
+    background-color: #ffffff !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+
+
+#top_bar_container {
+    -webkit-box-shadow: -1px 6px 7px -2px rgb(241, 235, 241);
+    -moz-box-shadow: -1px 6px 7px -2px rgb(241, 235, 241);
+    box-shadow: -1px 6px 7px -2px rgb(241, 235, 241);
+}
+#top_bar_container .uk-navbar-container {
+    height: 47px !important;
+}
+#top_bar_container .uk-navbar-right a {
+    height: 47px;
+    padding: 0px;
+}
+#top_bar_container .uk-navbar-left a {
+    height: 47px;
+    font-size: 12px;
+}
+.rounds {
+    border-radius: 50%;
+}
+
+
+.uk-container-medium {
+    box-sizing: content-box;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uk-padding-tiny {
+    padding: 0px 20px 0px 20px;
+}
+
+#slider {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+}
+
+
+/*//social*/
+.fa {
+    margin: 0px 5px 0px 5px;
+    padding: 10px;
+    font-size: 15px;
+    width: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    color: #3B5998;
+}
+.fa-facebook:hover {
+    border-color: #3B5998;
+    border-style: solid;
+    border-width: 1px;
+    color: #3B5998;
+}
+.fa-twitter {
+    color: #55ACEE;
+}
+.fa-twitter:hover {
+    border-color: #55ACEE;
+    border-style: solid;
+    border-width: 1px;
+    color: #55ACEE;
+}
+.fa-google-plus {
+    color: red;
+}
+.fa-google-plus:hover {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    color: red;
+}
+
+
+/*page heading*/
+#page-heading h1 {
+    font-size: 80px;
+}
+
+/*post*/
+.post-meta {
+    color: #888;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 25.2px;
+    font-family: 'Playfair Display', serif;
+}
+.post-title {
+    font-weight:700;
+    font-size: 33px;
+    line-height: 40.8px;
+    font-family: 'Playfair Display', serif;
+
+}
+.post-share {
+    color: #888;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 25.2px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/*section heading*/
+#trending #heading {
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 47.6px;
+    font-family: 'Playfair Display', serif;
+}
+#trending h3{
+    text-transform: capitalize;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+}
+#trending .date {
+    color: #999999;
+    font-size: 11px;
+    line-height: 25.2px;
+    font-family: 'Droid Serif', serif;
+    margin: 0px;
+}
+
+#left_section .excerpt{
+    padding: 25px;
+}
+
+/*about*/
+#right-section .about-heading {
+    color: #888;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 19.2px;
+    font-family: 'Playfair Display', serif;
+}
+#right-section .info {
+    color: #333333;
+    font-size: 13px;
+    line-height: 22.1px;
+    font-family: 'Droid Serif', serif;
+    margin: 0px;
+}
+
+/*latest posts*/
+#latest_posts {
+    margin: 40px 0px 0px 0px;
+    height: 500px;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+#latest_posts .date {
+    color: #999999;
+    font-size: 11px;
+    line-height: 25.2px;
+    font-family: 'Droid Serif', serif;
+    margin: 0px;
+}
+#latest_posts .heading {
+    font-size: 14px;
+    line-height: 22.14px;
+    font-family: 'Playfair Display', serif !important;
+}
+#latest_posts .sub-heading {
+    color: #888;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 19.2px;
+    font-family: 'Playfair Display', serif;
+}
+
+/*newsletter*/
+#newsletter {
+    background-color: #000000;
+    background-image: url("/img/diagmonds.png");
+}
+#newsletter h3 {
+    color: #333;
+    font-size: 38px;
+    line-height: 68.4px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+#newsletter p {
+    color: #888888;
+    font-size: 13px;
+    line-height: 25.2px;
+    font-family: 'Droid Serif', serif;
+}
+
+#slider_content {
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#categories {
+    height: 300px;
+    overflow-y: scroll;
+}
